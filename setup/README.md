@@ -10,7 +10,7 @@ https://data.lsst.cloud/
 
 The RSP is the primary point of access to all existing Rubin science data
 (currently DP0 and DP1). Accounts are available to all Rubin Data Rights holders; 
-verification is manual, so accounts should be requested **at least 1 week prior** to our 
+verification is manual, so accounts should be requested **as soon as possible**, before our 
 event. If your identity cannot be confirmed via your institution, please use a GitHub 
 or an ORCID account to request access.
 Instructions to set up an account are available at : 
@@ -24,8 +24,7 @@ https://rsp.lsst.io/guides/getting-started/get-an-account.html
 ![The RSP main page](assets/01-rsp-main.png)
 
 * You may need to login first. Once you see that page, press "Notebooks"
-* This will take you to a server options menu. You can leave the "Image" as
-  "Recommended". In "Options", set the size to "Large".
+* This will take you to a server options menu. Please select as "Image" the newest weekly version avaliable. At the moment of writtting this page that is Weekly 2026_18, but select the newest avaliable. In "Options", set the size to "Large".
 
 ![The RSP Server Options page](assets/02-server-options.png)
 
@@ -48,7 +47,7 @@ https://rsp.lsst.io/guides/getting-started/get-an-account.html
 * Copy/paste the following command into the terminal to fetch this repository:
 
 ```
-$ git clone http://github.com/lincc-frameworks/RCW_Hackathon_2025_LSDB
+$ git clone https://github.com/lincc-frameworks/LSST-DA-meeting-JHU.git
 ```
 
 * This will be cloned into your user home directory. However, the home 
@@ -58,14 +57,15 @@ $ git clone http://github.com/lincc-frameworks/RCW_Hackathon_2025_LSDB
 
 ![How to navigate to your home directory](assets/07-home.png)
 
-* From here, navigate to the `RCW_Hackathon_2025_LSDB` directory, and open the first
+* From here, navigate to the `LSST-DA-meeting-JHU` directory, and open the first
   notebook, `Notebook_1_Intro.ipynb`.
 
-## Installing LSDB in your kernel
+## Installing LSDB in your kernel [ONLY IF LSDB IS NOT AVALIABLE]
 
-* If this is your first time using LSDB on the RSP, you'll need to install the python
-  packages. The first cell in the notebook has an optional line to perform this 
-  installation for you.
+* Please check if you have LSDB installed in your enviroment. Do this with commands ``import lsdb`` and ``lsdb.__version__``.  You _should_ have LSDB, with version higher than 0.0. If that is NOT the case, follow the instructiosn below.
+
+
+The first cell in the notebook has an optional line to perform this installation for you.
 
 ![Line to install LSDB](assets/08-install-lsdb.png)
 
@@ -84,7 +84,7 @@ $ git clone http://github.com/lincc-frameworks/RCW_Hackathon_2025_LSDB
 * After restarting, you can run the notebook's second cell, which imports LSDB and
   other dependencies.
 * If LSDB has been installed correctly, and is available in the kernel, then you
-  should see output with "Version of lsdb is 0.6.x"
+  should see output with "Version of lsdb is 0.9.x"
 
 ![Example output of the second notebook cell with lsdb version](assets/11-lsdb-version.png)
 
