@@ -1,6 +1,6 @@
 # HATS/LSDB at LSST-DA Regional Meeting; Science with LSST 2026
 
-<img src="https://cdn2.webdamdb.com/1280_2yYofV7cPVE1.png?1607019137" height="200"> [![LINCC Frameworks](https://github.com/astronomy-commons/lsdb/blob/main/docs/lincc-logo.png)](https://lsstdiscoveryalliance.org/programs/lincc-frameworks/)
+<img src="https://cdn2.webdamdb.com/1280_2yYofV7cPVE1.png?1607019137" height="200"> [![LINCC Frameworks](setup/assets/lc_fram.png)](https://lsstdiscoveryalliance.org/programs/lincc-frameworks/)
 
 Demos prepared for the LSST Discovery Alliance Regional Meeting 0 Science with LSST: From Transients to Cosmology, held May 11-15 2026, Baltimore, MD.
 
