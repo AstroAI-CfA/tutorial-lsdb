@@ -2,12 +2,13 @@
 
 <img src="https://cdn2.webdamdb.com/1280_2yYofV7cPVE1.png?1607019137" height="200"> [![LINCC Frameworks](https://github.com/astronomy-commons/lsdb/blob/main/docs/lincc-logo.png)](https://lsstdiscoveryalliance.org/programs/lincc-frameworks/)
 
-Demos prepared for the Stellar Streams in LSST; DESC Dark Matter Workshop, 2025, Seattle, WA.
+Demos prepared for the LSST Discovery Alliance Regional Meeting 0 Science with LSST: From Transients to Cosmology, held May 11-15 2026, Baltimore, MD.
+
 The noteboooks showcase working with HATS-partitioned survey catalogs via [LSDB](https://lsdb.io), and time domain analysis with [nested-pandas](https://nested-pandas.readthedocs.io/en/latest/).
 
 ### When and where:
 
-More information at this [link](https://docs.google.com/document/d/1xBtN7V188nmx7-PIVaEtSRinStESw4nJphndLxKQXQA/)
+More information at this [link](https://docs.google.com/document/d/1SZEhDlJmT0jF9SddhyUpqDnb2GUUJrGUlDZQ1Z9aAZ4/).
 
 ### How to ask for help
 
@@ -16,7 +17,7 @@ More information at this [link](https://docs.google.com/document/d/1xBtN7V188nmx
 
 ### Main references
 
-* [Slide deck](https://docs.google.com/presentation/d/1ZxC_zhl3FDGueUXswfFrBXlgpViei2wu6RO6uhtgM5s)
+* [Slide deck](https://docs.google.com/presentation/d/1NvYeLEGxNCxmBflU8HL4r544yOhmtm9RVkn9OR1ztNg)
 * LSDB ([Main page](https://lsdb.io))([LSDB catalogs](https://data.lsdb.io))([on GitHub](https://github.com/astronomy-commons/lsdb))([on ReadTheDocs](https://lsdb.readthedocs.io/en/latest/))  
   * [Rubin Observatory DP1 documentation page for LSDB](https://dp1.lsst.io/products/lsdb.html)  
   * [Working with Rubin data section in LSDB documentation](https://docs.lsdb.io/en/latest/tutorial_toc/toc_rubin.html)
