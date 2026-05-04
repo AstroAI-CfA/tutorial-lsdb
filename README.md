@@ -1,4 +1,4 @@
-# LSDB at Stellar Streams in LSST; DESC Dark Matter Workshop 2025
+# HATS/LSDB at LSST-DA Regional Meeting; Science with LSST 2026
 
 <img src="https://cdn2.webdamdb.com/1280_2yYofV7cPVE1.png?1607019137" height="200"> [![LINCC Frameworks](https://github.com/astronomy-commons/lsdb/blob/main/docs/lincc-logo.png)](https://lsstdiscoveryalliance.org/programs/lincc-frameworks/)
 
@@ -13,7 +13,7 @@ More information at this [link](https://docs.google.com/document/d/1SZEhDlJmT0jF
 ### How to ask for help
 
 * Slack channel
-  * Feel free to use `#lincc-frameworks-lsdb` channel on LSST-DA slack for any questions, bugs, or problems!
+  * Feel free to use [`#lincc-frameworks-lsdb`](https://discovery-alliance.slack.com/archives/C04610PQW9F) channel on LSST-DA slack for any questions, bugs, or problems!
 
 ### Main references
 
