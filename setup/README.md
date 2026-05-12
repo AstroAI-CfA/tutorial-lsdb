@@ -33,7 +33,7 @@ https://rsp.lsst.io/guides/getting-started/get-an-account.html
 
 ![The RSP Server loading page](assets/03-server-starting.png)
 
-* Once your server has started, you will be taken to the jupyterlab Welcome page
+* Once your server has started, you will be taken to the Jupyterlab welcome page
 
 ![RSP JupyterLab Welcome page](assets/04-jupyterlab.png)
 
@@ -62,7 +62,7 @@ $ git clone https://github.com/lincc-frameworks/LSST-DA-meeting-JHU.git
 
 ## Installing LSDB in your kernel [ONLY IF LSDB IS NOT AVALIABLE]
 
-* Please check if you have LSDB installed in your enviroment. Do this with commands ``import lsdb`` and ``lsdb.__version__``.  You _should_ have LSDB, with version higher than 0.0. If that is NOT the case, follow the instructiosn below.
+* Please check if you have LSDB installed in your enviroment. Do this with commands ``import lsdb`` and ``lsdb.__version__``.  You _should_ have LSDB, with version higher than 0.9. If that is NOT the case, follow the instructiosn below.
 
 
 The first cell in the notebook has an optional line to perform this installation for you.
