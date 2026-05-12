@@ -2,7 +2,7 @@
 
 <img src="https://cdn2.webdamdb.com/1280_2yYofV7cPVE1.png?1607019137" height="200"> <a href="https://lsstdiscoveryalliance.org/programs/lincc-frameworks/"><img src="setup/assets/lc_fram.png" height="200"></a>
 
-Demos prepared for the LSST Discovery Alliance Regional Meeting 0 Science with LSST: From Transients to Cosmology, held May 11-15 2026, Baltimore, MD.
+Demos prepared for the LSST Discovery Alliance Regional Meeting: Science with LSST: From Transients to Cosmology, held May 11-15 2026, Baltimore, MD.
 
 The noteboooks showcase working with HATS-partitioned survey catalogs via [LSDB](https://lsdb.io), and time domain analysis with [nested-pandas](https://nested-pandas.readthedocs.io/en/latest/).
 
