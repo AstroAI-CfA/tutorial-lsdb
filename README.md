@@ -31,7 +31,7 @@ More information at this [link](https://docs.google.com/document/d/1SZEhDlJmT0jF
 Make sure that you have access to the Rubin Science Platform and follow the instructions at [lsdb.io/dp1](https://docs.lsdb.io/en/latest/tutorials/pre_executed/rubin_dp1.html#1.-Accessing-the-data-on-Rubin-Science-Platform-(RSP)).
 
 For a complete guide to setting up an RSP account and getting custom versions of LSDB available in
-your notebooks, we've put together a [system guide](/setup/) that you might find useful.
+your notebooks, we've put together a [system guide](/setup/) that you might find useful. Note that you have to use the **LATEST WEEKLY** of the pipelines on Rubin Science Platform. 
 
 ### On Perlmutter
 
