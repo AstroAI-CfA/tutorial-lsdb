@@ -79,6 +79,13 @@ In this notebook, we provide several AGN-related problems:
 - Crossmatch a large catalog of AGN with Rubin DP1 data
 - Run scientific analysis on lightcurves from Rubin DP1
 
+### [Bonus AGN notebook](/tutorials/Notebook_bonus_AGN_Variability_Population_Demo_LSDB.ipynb)
+
+- LSDB version of the TAP version of AGN in DP1 notebook
+- Presented by Gordon Richards at the meeting
+- This notebook is avaliable at [this link](https://github.com/lsst/data-academy/tree/main/2025)
+
+
 ## Acknowledgements
 
 This project is supported by Schmidt Sciences.
