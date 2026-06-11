@@ -40,6 +40,10 @@ You need a Google account to use the Colab. We recommend using no more than two 
 
 You can run any notebook in Colab by clicking on the "Open in Colab" badge at the top of each notebook. This will open the notebook in Colab, where you can run it as usual. Please remember to uncomment the first code cell to install LSDB.
 
+Before you start, **save a personal copy to your Google Drive** so your changes are not lost when the session ends. Open the command palette (the **Commands** button in the top-right toolbar, or `Ctrl+Shift+P` / `Cmd+Shift+P`), type **Drive**, and select **Save a copy in Drive**.
+
+![Save a copy in Drive](tutorials/assets/colab-save-to-drive.png)
+
 ### On Rubin Science Platform
 
 Make sure that you have access to the Rubin Science Platform and follow the instructions at [lsdb.io/dp1](https://docs.lsdb.io/en/latest/tutorials/pre_executed/rubin_dp1.html#1.-Accessing-the-data-on-Rubin-Science-Platform-(RSP)).
