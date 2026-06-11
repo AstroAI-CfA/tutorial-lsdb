@@ -1,19 +1,25 @@
-# HATS/LSDB at LSST-DA Regional Meeting; Science with LSST 2026
+# *WORK IN PROGRESS, please check back later for updates!*
 
-<img src="https://cdn2.webdamdb.com/1280_2yYofV7cPVE1.png?1607019137" height="200"> <a href="https://lsstdiscoveryalliance.org/programs/lincc-frameworks/"><img src="setup/assets/lc_fram.png" height="200"></a>
+# HATS/LSDB at Astro-AI Workshop, June 17, 2026
 
-Demos prepared for the LSST Discovery Alliance Regional Meeting: Science with LSST: From Transients to Cosmology, held May 11-15 2026, Baltimore, MD.
+<a href="https://astroai.cfa.harvard.edu/"><img src="https://raw.githubusercontent.com/AstroAI-CfA/.github/main/img/astroai.png" height="200px"></a> <img src="https://raw.githubusercontent.com/MultimodalUniverse/MultimodalUniverse/main/assets/multimodal_universe.png" height="200"> <a href="https://lsstdiscoveryalliance.org/programs/lincc-frameworks/"><img src="setup/assets/lc_fram.png" height="200"></a>
 
-The noteboooks showcase working with HATS-partitioned survey catalogs via [LSDB](https://lsdb.io), and time domain analysis with [nested-pandas](https://nested-pandas.readthedocs.io/en/latest/).
+Demos prepared for the AstroAI workshop, held June 15-18 2026, Cambridge, MA.
+
+The notebooks showcase working with HATS-partitioned survey catalogs via [LSDB](https://lsdb.io), and time domain analysis with [nested-pandas](https://nested-pandas.readthedocs.io/en/latest/).
 
 ### When and where:
 
-More information at this [link](https://docs.google.com/document/d/1SZEhDlJmT0jF9SddhyUpqDnb2GUUJrGUlDZQ1Z9aAZ4/).
+More information at this [link](https://astroai.cfa.harvard.edu/workshop2026/details.html).
 
 ### How to ask for help
 
-* Slack channel
+* Konstantin (Kostya) Malanchev: <malanchev@cmu.edu>
+* GitHub issues for LSDB: https://github.com/astronomy-commons/lsdb/issues
+* LSST Discovery Alliance Slack channel
   * Feel free to use [`#lincc-frameworks-lsdb`](https://discovery-alliance.slack.com/archives/C04610PQW9F) channel on LSST-DA slack for any questions, bugs, or problems!
+  * For Rubin specific questions, please also check the community forum at https://community.lsst.org/ and the [Rubin Observatory DP1 documentation page for LSDB](https://dp1.lsst.io/products/lsdb.html).
+* "Contact us" documentation page for LSDB: https://docs.lsdb.io/en/latest/contact.html
 
 ### Main references
 
@@ -25,6 +31,14 @@ More information at this [link](https://docs.google.com/document/d/1SZEhDlJmT0jF
 * nested-pandas ([on GitHub](https://github.com/lincc-frameworks/nested-pandas))([on ReadTheDocs](https://nested-pandas.readthedocs.io/en/stable/))
 
 ## Getting Started 
+
+You absolutely can run these notebooks on your local machine, but we recommend to use a remote environment, such as Google Colab, a science platform like Rubin Science Platform, or an HPC cluster, because of the large requirements for the data download, and the possibly limited networking capabilities of the workshop WiFi.
+
+### On Google Colab
+
+You need a Google account to use the Colab. We recommend using no more than two Dask workers in the default Colab environment, because of the limited resources. You can also use Colab Pro for more resources, but that is not required to run the notebooks.
+
+You can run any notebook in Colab by clicking on the "Open in Colab" badge at the top of each notebook. This will open the notebook in Colab, where you can run it as usual. Please remember to uncomment the first code cell to install LSDB.
 
 ### On Rubin Science Platform
 
@@ -49,44 +63,29 @@ In this notebook, we will learn how to:
 
 - Import DASK client
 - Load object and source catalogs (lazily)
-- Show HATS partitioning with ZTF objects and source
-- Perform crossmatching with existing `LSDB` catalogs
+- Show HATS partitioning with ZTF objects and sources
 - Save the results of a science workflow to disk
 
 ### [Notebook 2](/tutorials/Notebook_2_Intro.ipynb)
 
-In this notebook, we will learn:
+In this notebook, we will learn how to:
 
-- How to access photo-z catalog derived from Rubin’s Data Preview 1 with LSDB 
+- Perform crossmatching with existing `LSDB` catalogs
+- Stream the results of LSDB operations instead of computing them all at once
 
 ### [Notebook 3](/tutorials/Notebook_3_Intro.ipynb)
 
 In this notebook, we will learn:
 
 - What nested pandas is
-- How to do basic operations on timeseries
+- How to do basic operations on spectra and timeseries
 
 ### [Notebook 4](/tutorials/Notebook_4_Intro.ipynb)
 
 In this notebook, we will learn how to:
 
 - Crossmatch custom list of positions
-- Access Object and diaObject data from Rubin DP1
-- Show lightcurves for both Objects and diaObjects
-
-### [Notebook 5](/tutorials/Notebook_5_Intro.ipynb)
-
-In this notebook, we provide several AGN-related problems:
-
-- Crossmatch SDSS AGNs with Rubin DP1 photo-z catalog
-- Crossmatch a large catalog of AGN with Rubin DP1 data
-- Run scientific analysis on lightcurves from Rubin DP1
-
-### [Bonus AGN notebook](/tutorials/Notebook_bonus_AGN_Variability_Population_Demo_LSDB.ipynb)
-
-- LSDB version of the TAP version of AGN in DP1 notebook
-- Presented by Gordon Richards at the meeting
-- This notebook is avaliable at [this link](https://github.com/lsst/data-academy/tree/main/2025)
+- Run a simple machine learning training workflow on cross-matched multi-modal data
 
 
 ## Acknowledgements
