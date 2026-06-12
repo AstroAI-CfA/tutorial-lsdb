@@ -2,7 +2,7 @@
 
 # HATS/LSDB at Astro-AI Workshop, June 17, 2026
 
-<a href="https://astroai.cfa.harvard.edu/"><img src="https://raw.githubusercontent.com/AstroAI-CfA/.github/main/img/astroai.png" height="200px"></a> <img src="https://raw.githubusercontent.com/MultimodalUniverse/MultimodalUniverse/main/assets/multimodal_universe.png" height="200"> <a href="https://lsstdiscoveryalliance.org/programs/lincc-frameworks/"><img src="setup/assets/lc_fram.png" height="200"></a>
+<a href="https://astroai.cfa.harvard.edu/"><img src="tutorials/assets/astroai.png" height="200px"></a> <img src="tutorials/assets/multimodal_universe.png" height="200"> <a href="https://lsstdiscoveryalliance.org/programs/lincc-frameworks/"><img src="tutorials/assets/LFLogo.png" height="200"></a>
 
 Demos prepared for the AstroAI workshop, held June 15-18 2026, Cambridge, MA.
 
@@ -40,7 +40,7 @@ You need a Google account to use the Colab. We recommend using no more than two 
 
 You can run any notebook in Colab by clicking on the "Open in Colab" badge at the top of each notebook. This will open the notebook in Colab, where you can run it as usual. Please remember to uncomment the first code cell to install LSDB.
 
-Before you start, **save a personal copy to your Google Drive** so your changes are not lost when the session ends. Open the command palette (the **Commands** button in the top-right toolbar, or `Ctrl+Shift+P` / `Cmd+Shift+P`), type **Drive**, and select **Save a copy in Drive**.
+Before you start, save a personal copy to your Google Drive so your changes are not lost when the session ends. Open the command palette (the **Commands** button in the top-right toolbar, or `Ctrl+Shift+P` / `Cmd+Shift+P`), type **Drive**, and select **Save a copy in Drive**.
 
 ![Save a copy in Drive](tutorials/assets/colab-save-to-drive.png)
 
@@ -70,7 +70,7 @@ In this notebook, we will learn how to:
 - Show HATS partitioning with ZTF objects and sources
 - Save the results of a science workflow to disk
 
-### [Notebook 2](/tutorials/Notebook_2_Intro.ipynb)
+### [Notebook 2](/tutorials/Notebook_2_Crossmatch.ipynb)
 
 In this notebook, we will learn how to:
 
@@ -82,15 +82,7 @@ In this notebook, we will learn how to:
 In this notebook, we will learn:
 
 - What nested pandas is
-- How to do basic operations on spectra and timeseries
-
-### [Notebook 4](/tutorials/Notebook_4_Intro.ipynb)
-
-In this notebook, we will learn how to:
-
-- Crossmatch custom list of positions
-- Run a simple machine learning training workflow on cross-matched multi-modal data
-
+- How to do basic operations on timeseries
 
 ## Acknowledgements
 

@@ -1,0 +1,6 @@
+tutorials/hats/
+tutorials/images/
+tutorials/.ipynb_checkpoints/
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
