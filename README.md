@@ -77,12 +77,13 @@ In this notebook, we will learn how to:
 - Perform crossmatching with existing `LSDB` catalogs
 - Stream the results of LSDB operations instead of computing them all at once
 
-### [Notebook 3](/tutorials/Notebook_3_Intro.ipynb)
+### [Notebook 3](/tutorials/Notebook_3_LightCurves.ipynb)
 
 In this notebook, we will learn:
 
 - What nested pandas is
 - How to do basic operations on timeseries
+- How to find periodic variables with a Lomb–Scargle periodogram
 
 ## Acknowledgements
 
