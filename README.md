@@ -1,5 +1,3 @@
-# *WORK IN PROGRESS, please check back later for updates!*
-
 # HATS/LSDB at Astro-AI Workshop, June 17, 2026
 
 <a href="https://astroai.cfa.harvard.edu/"><img src="tutorials/assets/astroai.png" height="200px"></a> <img src="tutorials/assets/multimodal_universe.png" height="200"> <a href="https://lsstdiscoveryalliance.org/programs/lincc-frameworks/"><img src="tutorials/assets/LFLogo.png" height="200"></a>
