@@ -1,5 +1,7 @@
 # HATS/LSDB at Astro-AI Workshop, June 17, 2026
 
+## Filtering, pre-processing, cross-matching and streaming astronomical catalogs with LSDB
+
 <a href="https://github.com/AstroAI-CfA/tutorial-lsdb"><img src="tutorials/assets/qr-repo.png" height="200px" alt="Scan to open this repository: https://github.com/AstroAI-CfA/tutorial-lsdb"></a>
 
 Scan the QR code or go to https://github.com/AstroAI-CfA/tutorial-lsdb to open this repository.
