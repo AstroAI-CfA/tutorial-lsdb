@@ -1,10 +1,14 @@
 # HATS/LSDB at Astro-AI Workshop, June 17, 2026
 
+<a href="https://github.com/AstroAI-CfA/tutorial-lsdb"><img src="tutorials/assets/qr-repo.png" height="200px" alt="Scan to open this repository: https://github.com/AstroAI-CfA/tutorial-lsdb"></a>
+
+Scan the QR code or go to https://github.com/AstroAI-CfA/tutorial-lsdb to open this repository.
+
 <a href="https://astroai.cfa.harvard.edu/"><img src="tutorials/assets/astroai.png" height="200px"></a> <img src="tutorials/assets/multimodal_universe.png" height="200"> <a href="https://lsstdiscoveryalliance.org/programs/lincc-frameworks/"><img src="tutorials/assets/LFLogo.png" height="200"></a>
 
 Demos prepared for the AstroAI workshop, held June 15-18 2026, Cambridge, MA.
 
-The notebooks showcase working with HATS-partitioned survey catalogs via [LSDB](https://lsdb.io), and time domain analysis with [nested-pandas](https://nested-pandas.readthedocs.io/en/latest/).
+The notebooks showcase working with HATS-partitioned survey catalogs via [LSDB](https://lsdb.io) ([docs](https://docs.lsdb.io)), and time domain analysis with `nested-pandas`([docs](https://nested-pandas.readthedocs.io/en/latest/)).
 
 ### When and where:
 
