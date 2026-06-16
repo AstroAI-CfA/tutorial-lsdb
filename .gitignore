@@ -1,5 +1,7 @@
 tutorials/hats/
 tutorials/images/
+tutorials/lance/
+tutorials/torch/
 tutorials/.ipynb_checkpoints/
 .ipynb_checkpoints/
 __pycache__/

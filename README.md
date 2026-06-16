@@ -85,6 +85,16 @@ In this notebook, we will learn:
 - How to do basic operations on timeseries
 - How to find periodic variables with a Lomb–Scargle periodogram
 
+### [Notebook 4](/tutorials/Notebook_4_MultiModal.ipynb)
+
+In this notebook, we will learn how to:
+
+- Build a multimodal dataset by cross-matching Gaia light curves with APOGEE spectra
+- Split a catalog into train/validation/test sets and stream training batches
+- Export the result to disk in different ML-ready formats: HATS, Lance, and PyTorch tensors
+
+Bring your own model and train a model!
+
 ## Acknowledgements
 
 This project is supported by Schmidt Sciences.
