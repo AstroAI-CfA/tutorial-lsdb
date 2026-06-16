@@ -68,12 +68,20 @@ In this notebook, we will learn how to:
 - Show HATS partitioning with ZTF objects and sources
 - Save the results of a science workflow to disk
 
+#### [Solution](/tutorials/Notebook_1_Solution.ipynb)
+
+Color-magnitude diagram of the h and χ Persei double cluster.
+
 ### [Notebook 2](/tutorials/Notebook_2_Crossmatch.ipynb)
 
 In this notebook, we will learn how to:
 
 - Perform crossmatching with existing `LSDB` catalogs
 - Stream the results of LSDB operations instead of computing them all at once
+
+#### [Solution](/tutorials/Notebook_2_Solution.ipynb)
+
+Train a small neural network to predict stellar temperature from Gaia colors.
 
 ### [Notebook 3](/tutorials/Notebook_3_LightCurves.ipynb)
 
@@ -82,6 +90,14 @@ In this notebook, we will learn:
 - What nested pandas is
 - How to do basic operations on timeseries
 - How to find periodic variables with a Lomb–Scargle periodogram
+
+#### [Solution 3a](/tutorials/Notebook_3a_Transient.ipynb)
+
+Find a transient by fitting the Bazin function to ZTF light curves.
+
+#### [Solution 3b](/tutorials/Notebook_3b_SimilaritySearch.ipynb)
+
+Similarity search with Astromer2 light-curve embeddings.
 
 ### [Notebook 4](/tutorials/Notebook_4_MultiModal.ipynb)
 
