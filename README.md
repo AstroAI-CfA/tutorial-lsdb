@@ -4,7 +4,7 @@
 
 Scan the QR code or go to https://github.com/AstroAI-CfA/tutorial-lsdb to open this repository.
 
-<a href="https://astroai.cfa.harvard.edu/"><img src="tutorials/assets/astroai.png" height="200px"></a> <img src="tutorials/assets/multimodal_universe.png" height="200"> <a href="https://lsstdiscoveryalliance.org/programs/lincc-frameworks/"><img src="tutorials/assets/LFLogo.png" height="200"></a>
+<a href="https://astroai.cfa.harvard.edu/"><img src="tutorials/assets/astroai.webp" height="200px"></a> <img src="tutorials/assets/multimodal_universe.webp" height="200"> <a href="https://lsstdiscoveryalliance.org/programs/lincc-frameworks/"><img src="tutorials/assets/LFLogo.webp" height="200"></a>
 
 Demos prepared for the AstroAI workshop, held June 15-18 2026, Cambridge, MA.
 
@@ -44,7 +44,7 @@ You can run any notebook in Colab by clicking on the "Open in Colab" badge at th
 
 Before you start, save a personal copy to your Google Drive so your changes are not lost when the session ends. Open the command palette (the **Commands** button in the top-right toolbar, or `Ctrl+Shift+P` / `Cmd+Shift+P`), type **Drive**, and select **Save a copy in Drive**.
 
-![Save a copy in Drive](tutorials/assets/colab-save-to-drive.png)
+![Save a copy in Drive](tutorials/assets/colab-save-to-drive.webp)
 
 ### On Rubin Science Platform
 
