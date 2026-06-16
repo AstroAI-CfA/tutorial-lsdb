@@ -32,6 +32,22 @@ More information at this [link](https://astroai.cfa.harvard.edu/workshop2026/det
 * HATS ([on GitHub](https://github.com/astronomy-commons/hats))([on ReadTheDocs](https://hats.readthedocs.io/en/stable/))
 * nested-pandas ([on GitHub](https://github.com/lincc-frameworks/nested-pandas))([on ReadTheDocs](https://nested-pandas.readthedocs.io/en/stable/))
 
+## What is LSDB?
+
+LSDB is a Python framework for working with large (and not so large) astronomical catalogs.
+Its main strength is the ability to work with catalogs that are too large to fit in memory, by using lazy loading and Dask for parallel processing.
+It also provides a convenient interface for cross-matching catalogs, and for working with time-domain and spectral data.
+
+### But what is HATS?
+
+HATS (Hierarchical Astronomical Tiling System) is a storage format for astronomical catalogs that is designed to enable efficient bulk-processing of large catalogs,
+and optimize crossmatching, spatial queries, and table column selection.
+
+Each Parquet file has the same structure, and corresponds to a single HEALpix tile on the sky.
+For example, here is the sky map for the HATS Gaia DR3 cataloh, each rectangle corresponds to a single Parquet file, and the color shows mean parallax.
+
+<img src="tutorials/assets/gaia-parallax.webp" width="600px">
+
 ## Getting Started 
 
 You absolutely can run these notebooks on your local machine, but we recommend to use a remote environment, such as Google Colab, a science platform like Rubin Science Platform, or an HPC cluster, because of the large requirements for the data download, and the possibly limited networking capabilities of the workshop WiFi.
@@ -59,7 +75,6 @@ your notebooks, we've put together a [system guide](/setup/) that you might find
 ### On Perlmutter
 
 Make sure that you have access to the Rubin Science Platform and follow the instructions at [lsdb.io/dp1](https://docs.lsdb.io/en/latest/tutorials/pre_executed/rubin_dp1.html#2.-Accessing-the-data-on-NERSC-(Perlmutter)).
-
 
 ## [Notebooks](/tutorials/)
 
